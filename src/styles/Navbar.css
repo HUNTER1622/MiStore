@@ -1,0 +1,49 @@
+.navbar {
+    display: grid;
+    grid-template-columns: 2fr 7fr 3fr;
+    background-color: rgb(244, 245, 245);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.121);
+}
+
+.navbar>div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.8vmax;
+}
+
+.navbar > div > a {
+    margin: 1vmax;
+    color: rgb(37, 35, 35);
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#search {
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.438);
+    outline: none;
+}
+
+#search > svg {
+    fill: rgba(0, 0, 0, 0.438);
+}
+
+.logodiv {
+    width: 58px;
+    background-color: orangered;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+    left: 5vmax;
+}
+
+#logoimg:hover {
+    transform: translateX(-58px);
+    transition: all 0.5s;
+}
+
+.navlinks:hover {
+    color: orangered;
+    text-decoration: none;
+}

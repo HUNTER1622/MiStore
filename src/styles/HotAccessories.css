@@ -1,0 +1,24 @@
+.hotaccessories
+{
+    display: flex;
+    width: 90vw;
+    margin: auto;
+    padding: 1vmax;
+    cursor: pointer;
+}
+.hotaccessories>div:last-child
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.hotaccessories>div:first-child
+{
+    margin: .1vmax;
+}
+.hotaccessories>div:first-child:hover
+{
+    transform: translatey(-.4vmax);
+    transition: all 0.5s;
+    box-shadow: 6px 6px 15px rgb(70, 70, 70);
+
+}
